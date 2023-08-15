@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicks Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    >
+  </head>
+  <body>
+    <h1 style="text-align: center;">Clicks</h1>
+    <p style="text-align: center; font-size: 20px ;">First set time and then click "Start".</p>
+    <p style="text-align: center; font-size: 20px;">When time runs out click "Reload".</p>
+    <div>
+      <div class="timer-div">
+        <button class="opt1">5 Second</button>
+        <button class="opt2">10 Second</button>
+        <button class="opt3">15 Second</button>
+        <button class="opt4">20 Second</button>
+      </div>
+
+      <div class="div1">
+        <button id="startBt">Start</button>
+        <button id="againBt">Reload</button>
+      </div>
+
+      <div id="main-div">
+        <div id="main-div2">
+          <div id="time-div">
+            <p>Time</p>
+            <p id="time"></p>
+          </div>
+  
+          <div id="score-div">
+            <p>Score</p>
+            <p id="score"></p>
+          </div>
+        </div>
+        <div id="clicks-div">
+          <button id="clicksBt">Click me</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

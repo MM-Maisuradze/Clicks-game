@@ -1,0 +1,70 @@
+body{
+    font-family: 'Handlee', cursive;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startBt,
+#againBt{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 15px;
+}
+#startBt{
+    margin-right: 5px;
+}
+.timer-div{
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer-div button{
+    border: none;
+    font-size: 15px;
+    font-family: 'Handlee', cursive;
+    border-radius: 15px;
+}
+.opt1, .opt2, .opt3{
+    margin-right: 6px;
+}
+#main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    border-right: 2px solid;
+    margin-bottom: 25px;
+}
+#time-div,
+#score-div{
+    width: 50px;
+    height: 72px;
+}
+#score-div{
+    border-top: 2px solid;
+}
+#clicks-div{
+    width: 200px;
+    height: 120px;
+}
+#clicksBt{
+    width: 200px;
+    height: 100px;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 2px;
+}
